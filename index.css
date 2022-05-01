@@ -1,0 +1,40 @@
+@font-face {
+    font-family: ;
+    src: url(FiraCode-SemiBold.ttf);
+}
+.titulo{
+    text-align:center;
+    font: 35px ;
+    background-color:rgb(68, 71, 90);
+    color:rgb(255, 121, 198);
+    border-radius: 15px;
+    margin: 0px 500px 100px 500px;
+}
+.central{
+    text-align:center;
+    font: 35px Arial, Helvetica, sans-serif;
+    color:white;
+    background-color:rgb(98, 114, 164);
+    margin:0px 500px 0px 500px;
+    border-radius: 15px;
+    /* TOP RIGHT BOTTOM LEFT*/
+}
+body{
+    background-color:rgb(40, 42, 54);
+
+}
+.botão{
+    text-align:center;
+    font: 35px Arial,Helvetica,sans-serif;
+    color:rgb(255, 121, 198);
+    text-decoration: none;
+    background-color:#44475a;
+    border-radius: 15px;
+    margin:0px 1740px 0px 5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 2s;
+}
+.botão:hover{
+    background-color:rgb(98, 114, 164);
+}
